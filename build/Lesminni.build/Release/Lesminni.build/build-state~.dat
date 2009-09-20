@@ -1,0 +1,1147 @@
+TLesminni
+v7
+r0
+t275169745.438796
+cCheck dependencies
+cSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current A
+cSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources Versions/Current/Resources
+cSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers Versions/Current/Headers
+cSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni Versions/Current/Lesminni
+cProcessInfoPlistFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist Info.plist
+cCpHeader build/Release/Lesminni.framework/Versions/A/Headers/ParseRomDelegate.h "ROM Parser/ParseRomDelegate.h"
+cCpHeader build/Release/Lesminni.framework/Versions/A/Headers/RomFile.h "ROM Parser/RomFile.h"
+cCopyStringsFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch.gch Lesminni_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni normal i386
+cGenerateDSYMFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework.dSYM /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni
+cTouch /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/openssl/err.h
+c0000000048649BAF0000000000002EC9
+t1214553007
+s11977
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/openssl/evp.h
+c0000000048649BAF00000000000082CE
+t1214553007
+s33486
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/err.h
+c000000004A58360C0000000000003299
+t1247294988
+s12953
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/evp.h
+c000000004A58360C00000000000096EA
+t1247294988
+s38634
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/gapetto/SNESminni/Lesminni/English.lproj/InfoPlist.strings
+c000000004A4BFCFF000000000000005C
+t1246493951
+s92
+
+N/Users/gapetto/SNESminni/Lesminni/FFArchive.framework/FFArchive
+c000000004A063A7E0000000000093990
+t1241922174
+s604560
+
+N/Users/gapetto/SNESminni/Lesminni/Lesminni_Prefix.pch
+c000000004AB68900000000000000007B
+t1253476608
+s123
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.h
+c00000000460296590000000000000774
+t1174574681
+s1908
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m
+c000000004AB684EE0000000000002CB3
+t1253475566
+s11443
+i"FDSReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.h
+c0000000046049DD100000000000007B1
+t1174707665
+s1969
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m
+c000000004AB685BC00000000000081F2
+t1253475772
+s33266
+i"GBAReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.h
+c000000004A4C129C000000000000019F
+t1246499484
+s415
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m
+c000000004AB685BC00000000000070DD
+t1253475772
+s28893
+i"GameBoyReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.h
+c0000000046152168000000000000037A
+t1175789928
+s890
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m
+c000000004AB6851600000000000024F6
+t1253475606
+s9462
+i"N64Reader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.h
+c000000004601F5EF00000000000008FB
+t1174533615
+s2299
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m
+c000000004AB685BC00000000000078D6
+t1253475772
+s30934
+i"NDSReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.h
+c00000000460718C800000000000003E8
+t1174870216
+s1000
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m
+c000000004AB685AB0000000000009A91
+t1253475755
+s39569
+i"NintendoReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.h
+c000000004678B16E00000000000003A1
+t1182314862
+s929
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m
+c000000004AB6852100000000000110D4
+t1253475617
+s69844
+i"SuperNintendoReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.h
+c0000000046059ECA00000000000000F1
+t1174773450
+s241
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m
+c000000004AB685B300000000000025B3
+t1253475763
+s9651
+i"VirtualBoyReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.h
+c000000004A4C204F0000000000000361
+t1246502991
+s865
+i<Foundation/Foundation.h>
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m
+c000000004A4C21E700000000000028BE
+t1246503399
+s10430
+i<openssl/evp.h>
+i<openssl/err.h>
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.h
+c000000004A4C1853000000000000015A
+t1246500947
+s346
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m
+c000000004A4C146B0000000000003CA1
+t1246499947
+s15521
+i"ParseRomDelegate.h"
+i"RomFile.h"
+i"NSData_CRC.h"
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.h
+c000000004A4C11AB0000000000000C7C
+t1246499243
+s3196
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m
+c000000004A4C1176000000000000063A
+t1246499190
+s1594
+i"RomFile.h"
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.h
+c0000000045E132E300000000000000F5
+t1172386531
+s245
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m
+c0000000046B24FEA0000000000000785
+t1186090986
+s1925
+i"RomFileReader.h"
+i"GameBoyReader.h"
+i"GBAReader.h"
+i"N64Reader.h"
+i"NDSReader.h"
+i"FDSReader.h"
+i"NintendoReader.h"
+i"SuperNintendoReader.h"
+i"VirtualBoyReader.h"
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o
+t1253476943
+s20252
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o
+t1253476943
+s61232
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o
+t1253476943
+s46760
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/Lesminni.LinkFileList
+c000000004AB68A4A000000000000054C
+t1253476938
+s1356
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o
+t1253476943
+s17348
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o
+t1253476944
+s59808
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o
+t1253476942
+s15664
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o
+t1253476944
+s56528
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o
+t1253476945
+s32420
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o
+t1253476942
+s38676
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o
+t1253476942
+s18408
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o
+t1253476944
+s104004
+
+N/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o
+t1253476944
+s17912
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework
+t1253476945
+s204
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework.dSYM
+t1253476945
+s102
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers
+t3
+s24
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni
+t3
+s25
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources
+t3
+s26
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Headers/ParseRomDelegate.h
+t1253476938
+s346
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Headers/RomFile.h
+t1253476938
+s3196
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni
+t1253476945
+s168012
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1253476938
+s92
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist
+t1253476938
+s662
+
+N/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current
+t3
+s1
+
+N/Users/gapetto/SNESminni/þekking/English.lproj/InfoPlist.strings
+c000000004A4BFCFF000000000000005C
+t1246493951
+s92
+
+N/Users/gapetto/SNESminni/þekking/FFArchive.framework/FFArchive
+c000000004A063A7E0000000000093990
+t1241922174
+s604560
+
+N/Users/gapetto/SNESminni/þekking/Lesminni_Prefix.pch
+c000000004AB68900000000000000007B
+t1253476608
+s123
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/FDSReader.h
+c00000000460296590000000000000774
+t1174574681
+s1908
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/FDSReader.m
+c000000004AB684EE0000000000002CB3
+t1253475566
+s11443
+i"FDSReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GBAReader.h
+c0000000046049DD100000000000007B1
+t1174707665
+s1969
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GBAReader.m
+c000000004AB685BC00000000000081F2
+t1253475772
+s33266
+i"GBAReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GameBoyReader.h
+c000000004A4C129C000000000000019F
+t1246499484
+s415
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GameBoyReader.m
+c000000004AB685BC00000000000070DD
+t1253475772
+s28893
+i"GameBoyReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/N64Reader.h
+c0000000046152168000000000000037A
+t1175789928
+s890
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/N64Reader.m
+c000000004AB6851600000000000024F6
+t1253475606
+s9462
+i"N64Reader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NDSReader.h
+c000000004601F5EF00000000000008FB
+t1174533615
+s2299
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NDSReader.m
+c000000004AB685BC00000000000078D6
+t1253475772
+s30934
+i"NDSReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NintendoReader.h
+c00000000460718C800000000000003E8
+t1174870216
+s1000
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NintendoReader.m
+c000000004AB685AB0000000000009A91
+t1253475755
+s39569
+i"NintendoReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/SuperNintendoReader.h
+c000000004678B16E00000000000003A1
+t1182314862
+s929
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/SuperNintendoReader.m
+c000000004AB6852100000000000110D4
+t1253475617
+s69844
+i"SuperNintendoReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/VirtualBoyReader.h
+c0000000046059ECA00000000000000F1
+t1174773450
+s241
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/VirtualBoyReader.m
+c000000004AB685B300000000000025B3
+t1253475763
+s9651
+i"VirtualBoyReader.h"
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/NSData_CRC.h
+c000000004A4C204F0000000000000361
+t1246502991
+s865
+i<Foundation/Foundation.h>
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/NSData_CRC.m
+c000000004A4C21E700000000000028BE
+t1246503399
+s10430
+i<openssl/evp.h>
+i<openssl/err.h>
+i"NSData_CRC.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/ParseRomDelegate.h
+c000000004A4C1853000000000000015A
+t1246500947
+s346
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/ParseRomDelegate.m
+c000000004A4C146B0000000000003CA1
+t1246499947
+s15521
+i"ParseRomDelegate.h"
+i"RomFile.h"
+i"NSData_CRC.h"
+i"RomFileReader.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/RomFile.h
+c000000004A4C11AB0000000000000C7C
+t1246499243
+s3196
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/RomFile.m
+c000000004A4C1176000000000000063A
+t1246499190
+s1594
+i"RomFile.h"
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/RomFileReader.h
+c0000000045E132E300000000000000F5
+t1172386531
+s245
+i<Cocoa/Cocoa.h>
+
+N/Users/gapetto/SNESminni/þekking/ROM Parser/RomFileReader.m
+c0000000046B24FEA0000000000000785
+t1186090986
+s1925
+i"RomFileReader.h"
+i"GameBoyReader.h"
+i"GBAReader.h"
+i"N64Reader.h"
+i"NDSReader.h"
+i"FDSReader.h"
+i"NintendoReader.h"
+i"SuperNintendoReader.h"
+i"VirtualBoyReader.h"
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/Lesminni.LinkFileList
+c000000004AB68982000000000000054C
+t1253476738
+s1356
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/þekking.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework
+t1253476738
+s204
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework.dSYM
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Headers
+t3
+s24
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Lesminni
+t3
+s25
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Resources
+t3
+s26
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Headers/ParseRomDelegate.h
+t1253476738
+s346
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Headers/RomFile.h
+t1253476738
+s3196
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Lesminni
+t2
+s0
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1253476738
+s92
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist
+t1253476738
+s662
+
+N/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/Current
+t3
+s1
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework
+t1253475785
+s204
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework.dSYM
+t1253475785
+s102
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Headers
+t3
+s24
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Resources
+t3
+s26
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Headers/ParseRomDelegate.h
+t1253475778
+s346
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Headers/RomFile.h
+t1253475778
+s3196
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1253475778
+s92
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Resources/Info.plist
+t1253475778
+s662
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/þekking
+t1253475785
+s146056
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/Current
+t3
+s1
+
+N/Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/þekking
+t3
+s25
+
+N/Users/gapetto/SNESminni/þekking/þekking_Prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/usr/lib/libcrypto.dylib
+c000000004A58360D0000000000430AF0
+t1247294989
+s4393712
+
+N/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-bkjoqulaeydcjfanowxhhqtrnkxy/Lesminni_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch.gch
+t1253476942
+s35656476
+
+N/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-ewgnnwkbhtrjipepnwdaifxjoish/Lesminni_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/þekking_Prefix-bycqyebeaszexzdhhzdtacluvvsx/þekking_Prefix.pch.gch
+t2
+s0
+
+NInfo.plist
+c000000004AB6894B00000000000002FD
+t1253476683
+s765
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies275169738#275169738#0(0"0(0#1#0"2553105728#0"0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169742.643290
+e275169743.013381
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m275169742#275169743#0(0"0(0#0#64"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m2553105728#1530"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/FDSReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/FDSReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/FDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169743.013539
+e275169743.554885
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m275169743#275169743#0(0"0(0#0#64"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m2553105728#1530"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GBAReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GBAReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GBAReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169742.859675
+e275169743.326923
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m275169742#275169743#0(0"0(0#0#68"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m2553105728#1538"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/GameBoyReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/GameBoyReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/GameBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169743.327086
+e275169743.633299
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m275169743#275169743#0(0"0(0#0#64"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m2553105728#1530"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/N64Reader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/N64Reader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/N64Reader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169743.555028
+e275169744.100313
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m275169743#275169744#0(0"0(0#0#64"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m2553105728#1530"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NDSReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NDSReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NDSReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169742.490503
+e275169742.859534
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m275169742#275169742#0(0"0(0#0#57"/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m2553105728#1524"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/NSData_CRC.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NSData_CRC.o "/Users/gapetto/SNESminni/þekking/ROM Parser/NSData_CRC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169743.633448
+e275169744.531511
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m275169743#275169744#0(0"0(0#0#69"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m2553105728#1540"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/NintendoReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/NintendoReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/NintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169744.798873
+e275169745.315461
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m275169744#275169745#0(0"0(0#0#63"/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m2553105728#1536"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/ParseRomDelegate.o "/Users/gapetto/SNESminni/þekking/ROM Parser/ParseRomDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169742.188587
+e275169742.643142
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m275169742#275169742#0(0"0(0#0#54"/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m2553105728#1518"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFile.o "/Users/gapetto/SNESminni/þekking/ROM Parser/RomFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169742.186873
+e275169742.490360
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m275169742#275169742#0(0"0(0#0#60"/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m2553105728#1530"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFileReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/RomFileReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/RomFileReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169744.100540
+e275169744.997735
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m275169744#275169744#0(0"0(0#0#74"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m2553105728#1550"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/SuperNintendoReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/SuperNintendoReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/SuperNintendoReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169744.531649
+e275169744.798726
+r1
+xCompileC
+xbuild/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o
+x/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m275169744#275169744#0(0"0(0#0#71"/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m2553105728#1544"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -include /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch -c "/Users/gapetto/SNESminni/Lesminni/ROM Parser/Formats/VirtualBoyReader.m" -o /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o0#
+
+CCompileC build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/VirtualBoyReader.o "/Users/gapetto/SNESminni/þekking/ROM Parser/Formats/VirtualBoyReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCopyStringsFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s275169738.244442
+e275169738.278798
+r1
+xCopyStringsFile
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings275169738#275169738#0(0"0(0#0#65"/Users/gapetto/SNESminni/Lesminni/English.lproj/InfoPlist.strings2553105728#367"    cd /Users/gapetto/SNESminni/Lesminni    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj0#
+
+CCopyStringsFile /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s275169538.303004
+e275169538.337886
+r1
+xCopyStringsFile
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings275169538#275169538#0(0"0(0#0#65"/Users/gapetto/SNESminni/þekking/English.lproj/InfoPlist.strings2553105728#367"    cd /Users/gapetto/SNESminni/þekking    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/English.lproj0#
+
+CCopyStringsFile /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpHeader build/Release/Lesminni.framework/Versions/A/Headers/ParseRomDelegate.h "ROM Parser/ParseRomDelegate.h"
+s275169738.237093
+e275169738.244155
+r1
+xCpHeader
+xbuild/Release/Lesminni.framework/Versions/A/Headers/ParseRomDelegate.h
+xROM Parser/ParseRomDelegate.h
+lSLF07#2@34"Copy ROM Parser/ParseRomDelegate.h275169738#275169738#0(0"0(0#0#63"/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.h2553105728#362"    cd /Users/gapetto/SNESminni/Lesminni    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/gapetto/SNESminni/Lesminni/ROM Parser/ParseRomDelegate.h" /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Headers0#
+
+CCpHeader build/Release/Lesminni.framework/Versions/A/Headers/RomFile.h "ROM Parser/RomFile.h"
+s275169738.238189
+e275169738.244346
+r1
+xCpHeader
+xbuild/Release/Lesminni.framework/Versions/A/Headers/RomFile.h
+xROM Parser/RomFile.h
+lSLF07#2@25"Copy ROM Parser/RomFile.h275169738#275169738#0(0"0(0#0#54"/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.h2553105728#353"    cd /Users/gapetto/SNESminni/Lesminni    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/gapetto/SNESminni/Lesminni/ROM Parser/RomFile.h" /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Headers0#
+
+CCpHeader build/Release/þekking.framework/Versions/A/Headers/ParseRomDelegate.h "ROM Parser/ParseRomDelegate.h"
+r0
+
+CCpHeader build/Release/þekking.framework/Versions/A/Headers/RomFile.h "ROM Parser/RomFile.h"
+r0
+
+CGenerateDSYMFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework.dSYM /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni
+s275169745.408773
+e275169745.434421
+r1
+xGenerateDSYMFile
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework.dSYM
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni
+lSLF07#2@107"GenerateDSYMFile build/Release/Lesminni.framework.dSYM build/Release/Lesminni.framework/Versions/A/Lesminni275169745#275169745#0(0"0(0#0#86"/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni2553105728#235"    cd /Users/gapetto/SNESminni/Lesminni    /Developer/usr/bin/dsymutil /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni -o /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework.dSYM0#
+
+CGenerateDSYMFile /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework.dSYM /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Lesminni
+r0
+
+CGenerateDSYMFile /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework.dSYM /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/þekking
+r0
+
+CLd /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni normal i386
+s275169745.315585
+e275169745.408637
+r1
+xLd
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni
+xnormal
+xi386
+lSLF07#2@91"Link /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni275169745#275169745#0(0"0(0#0#0"2553105728#749"    cd /Users/gapetto/SNESminni/Lesminni    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -filelist /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Objects-normal/i386/Lesminni.LinkFileList -install_name @executable_path/../Frameworks/Lesminni.framework/Versions/A/Lesminni -mmacosx-version-min=10.5 -framework Cocoa -framework FFArchive -lcrypto -single_module -compatibility_version 1 -current_version 1 -o /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Lesminni0#
+
+CLd /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Lesminni normal i386
+r0
+
+CLd /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/þekking normal i386
+r0
+
+CProcessInfoPlistFile /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist Info.plist
+s275169738.229286
+e275169738.236968
+r1
+xProcessInfoPlistFile
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist275169738#275169738#0(0"0(0#0#44"/Users/gapetto/SNESminni/Lesminni/Info.plist2553105728#221"    cd /Users/gapetto/SNESminni/Lesminni    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist0#
+
+CProcessInfoPlistFile /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist Info.plist
+s275169538.263715
+e275169538.288569
+r1
+xProcessInfoPlistFile
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist275169538#275169538#0(0"0(0#0#44"/Users/gapetto/SNESminni/þekking/Info.plist2553105728#221"    cd /Users/gapetto/SNESminni/þekking    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/A/Resources/Info.plist0#
+
+CProcessInfoPlistFile /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/A/Resources/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-bkjoqulaeydcjfanowxhhqtrnkxy/Lesminni_Prefix.pch.gch Lesminni_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch.gch Lesminni_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169738.278981
+e275169742.186635
+r1
+xProcessPCH
+x/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch.gch
+xLesminni_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Lesminni_Prefix.pch275169738#275169742#0(0"0(0#0#53"/Users/gapetto/SNESminni/Lesminni/Lesminni_Prefix.pch2553105728#1409"    cd /Users/gapetto/SNESminni/Lesminni    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/Lesminni/build/Release -F/Users/gapetto/SNESminni/Lesminni -I/Users/gapetto/SNESminni/Lesminni/build/Release/include -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/Lesminni/build/Lesminni.build/Release/Lesminni.build/DerivedSources -c /Users/gapetto/SNESminni/Lesminni/Lesminni_Prefix.pch -o /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-dhugzoamrpbbvyhkbbstwpqmppkk/Lesminni_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lesminni_Prefix-ewgnnwkbhtrjipepnwdaifxjoish/Lesminni_Prefix.pch.gch Lesminni_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/þekking_Prefix-bycqyebeaszexzdhhzdtacluvvsx/þekking_Prefix.pch.gch þekking_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s275169538.338054
+e275169538.345734
+r0
+xProcessPCH
+x/var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/þekking_Prefix-bycqyebeaszexzdhhzdtacluvvsx/þekking_Prefix.pch.gch
+xþekking_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/gapetto/SNESminni/þekking/þekking_Prefix.pch: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@30"Precompile þekking_Prefix.pch275169538#275169538#0(317"i686-apple-darwin10-gcc-4.2.1: /Users/gapetto/SNESminni/þekking/þekking_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1275169538#4294967295#0#0(1@0"0(0#0#53"/Users/gapetto/SNESminni/þekking/þekking_Prefix.pch2553105728#1409"    cd /Users/gapetto/SNESminni/þekking    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -msse3 -mssse3 -msse4.1 -msse4.2 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Lesminni-generated-files.hmap -I/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Lesminni-own-target-headers.hmap -I/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Lesminni-all-target-headers.hmap -iquote /Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/Lesminni-project-headers.hmap -F/Users/gapetto/SNESminni/þekking/build/Release -F/Users/gapetto/SNESminni/þekking -I/Users/gapetto/SNESminni/þekking/build/Release/include -I/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/DerivedSources/i386 -I/Users/gapetto/SNESminni/þekking/build/Lesminni.build/Release/Lesminni.build/DerivedSources -c /Users/gapetto/SNESminni/þekking/þekking_Prefix.pch -o /var/folders/Z1/Z1qp59FKFSWYDzauRg74KE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/þekking_Prefix-bycqyebeaszexzdhhzdtacluvvsx/þekking_Prefix.pch.gch1#
+
+CSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers Versions/Current/Headers
+s275169738.215142
+e275169738.228987
+r1
+xSymLink
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers
+xVersions/Current/Headers
+lSLF07#2@82"Process /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers275169738#275169738#0(0"0(0#0#0"2553105728#157"    cd /Users/gapetto/SNESminni/Lesminni    /bin/ln -sf Versions/Current/Headers /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Headers0#
+
+CSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni Versions/Current/Lesminni
+s275169738.219825
+e275169738.229181
+r1
+xSymLink
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni
+xVersions/Current/Lesminni
+lSLF07#2@83"Process /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni275169738#275169738#0(0"0(0#0#0"2553105728#159"    cd /Users/gapetto/SNESminni/Lesminni    /bin/ln -sf Versions/Current/Lesminni /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Lesminni0#
+
+CSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources Versions/Current/Resources
+s275169738.211178
+e275169738.219698
+r1
+xSymLink
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources
+xVersions/Current/Resources
+lSLF07#2@84"Process /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources275169738#275169738#0(0"0(0#0#0"2553105728#161"    cd /Users/gapetto/SNESminni/Lesminni    /bin/ln -sf Versions/Current/Resources /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Resources0#
+
+CSymLink /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current A
+s275169738.210070
+e275169738.215029
+r1
+xSymLink
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current
+xA
+lSLF07#2@91"Process /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current275169738#275169738#0(0"0(0#0#0"2553105728#143"    cd /Users/gapetto/SNESminni/Lesminni    /bin/ln -sf A /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework/Versions/Current0#
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Headers Versions/Current/Headers
+s275169538.258547
+e275169538.262490
+r1
+xSymLink
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Headers
+xVersions/Current/Headers
+lSLF07#2@82"Process /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Headers275169538#275169538#0(0"0(0#0#0"2553105728#157"    cd /Users/gapetto/SNESminni/þekking    /bin/ln -sf Versions/Current/Headers /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Headers0#
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Lesminni Versions/Current/Lesminni
+s275169538.259618
+e275169538.263609
+r1
+xSymLink
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Lesminni
+xVersions/Current/Lesminni
+lSLF07#2@83"Process /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Lesminni275169538#275169538#0(0"0(0#0#0"2553105728#159"    cd /Users/gapetto/SNESminni/þekking    /bin/ln -sf Versions/Current/Lesminni /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Lesminni0#
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Resources Versions/Current/Resources
+s275169538.255249
+e275169538.259521
+r1
+xSymLink
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Resources
+xVersions/Current/Resources
+lSLF07#2@84"Process /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Resources275169538#275169538#0(0"0(0#0#0"2553105728#161"    cd /Users/gapetto/SNESminni/þekking    /bin/ln -sf Versions/Current/Resources /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Resources0#
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/Current A
+s275169538.254187
+e275169538.258423
+r1
+xSymLink
+x/Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/Current
+xA
+lSLF07#2@91"Process /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/Current275169538#275169538#0(0"0(0#0#0"2553105728#143"    cd /Users/gapetto/SNESminni/þekking    /bin/ln -sf A /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework/Versions/Current0#
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Headers Versions/Current/Headers
+r0
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Resources Versions/Current/Resources
+r0
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/Versions/Current A
+r0
+
+CSymLink /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework/þekking Versions/Current/þekking
+r0
+
+CTouch /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework
+s275169745.434563
+e275169745.438738
+r1
+xTouch
+x/Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework
+lSLF07#2@72"Touch /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework275169745#275169745#0(0"0(0#0#0"2553105728#130"    cd /Users/gapetto/SNESminni/Lesminni    /usr/bin/touch -c /Users/gapetto/SNESminni/Lesminni/build/Release/Lesminni.framework0#
+
+CTouch /Users/gapetto/SNESminni/þekking/build/Release/Lesminni.framework
+r0
+
+CTouch /Users/gapetto/SNESminni/þekking/build/Release/þekking.framework
+r0
+

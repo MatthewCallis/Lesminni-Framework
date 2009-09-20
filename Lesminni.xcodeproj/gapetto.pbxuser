@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Lesminni */;
+		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* Lesminni */,
+		);
+		codeSenseManager = AC5984A90FFC3496005ECC7A /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					645,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					689,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					605,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275169945;
+			PBXWorkspaceStateSaveDate = 275169945;
+		};
+		perUserProjectItems = {
+			AC037CCF1066C2290038D8BE /* PBXTextBookmark */ = AC037CCF1066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD01066C2290038D8BE /* PBXTextBookmark */ = AC037CD01066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD11066C2290038D8BE /* PBXTextBookmark */ = AC037CD11066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD21066C2290038D8BE /* PBXTextBookmark */ = AC037CD21066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD31066C2290038D8BE /* PBXTextBookmark */ = AC037CD31066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD41066C2290038D8BE /* PBXTextBookmark */ = AC037CD41066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD51066C2290038D8BE /* PBXTextBookmark */ = AC037CD51066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD61066C2290038D8BE /* PBXTextBookmark */ = AC037CD61066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD71066C2290038D8BE /* PBXTextBookmark */ = AC037CD71066C2290038D8BE /* PBXTextBookmark */;
+			AC037CD81066C2290038D8BE /* PBXTextBookmark */ = AC037CD81066C2290038D8BE /* PBXTextBookmark */;
+			AC037CDA1066C2290038D8BE /* PBXTextBookmark */ = AC037CDA1066C2290038D8BE /* PBXTextBookmark */;
+			AC037D271066C2C30038D8BE /* PBXTextBookmark */ = AC037D271066C2C30038D8BE /* PBXTextBookmark */;
+			AC3DE1071066BBA400736027 /* PBXTextBookmark */ = AC3DE1071066BBA400736027 /* PBXTextBookmark */;
+			AC3DE1081066BBA400736027 /* PBXTextBookmark */ = AC3DE1081066BBA400736027 /* PBXTextBookmark */;
+			AC3DE12E1066BD4D00736027 /* PBXTextBookmark */ = AC3DE12E1066BD4D00736027 /* PBXTextBookmark */;
+			AC5985270FFC46F6005ECC7A /* PBXTextBookmark */ = AC5985270FFC46F6005ECC7A /* PBXTextBookmark */;
+			AC59853A0FFC4878005ECC7A /* PBXTextBookmark */ = AC59853A0FFC4878005ECC7A /* PBXTextBookmark */;
+			AC5985780FFC4DFE005ECC7A /* PBXTextBookmark */ = AC5985780FFC4DFE005ECC7A /* PBXTextBookmark */;
+			AC59857B0FFC4DFE005ECC7A /* PBXTextBookmark */ = AC59857B0FFC4DFE005ECC7A /* PBXTextBookmark */;
+			AC59857C0FFC4DFE005ECC7A /* PBXTextBookmark */ = AC59857C0FFC4DFE005ECC7A /* PBXTextBookmark */;
+			AC5986400FFC5819005ECC7A /* PBXTextBookmark */ = AC5986400FFC5819005ECC7A /* PBXTextBookmark */;
+			AC59865B0FFC5A4D005ECC7A /* PBXTextBookmark */ = AC59865B0FFC5A4D005ECC7A /* PBXTextBookmark */;
+		};
+		sourceControlManager = AC5984A80FFC3496005ECC7A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1667FE841158C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 434}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* Lesminni_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 253}}";
+			sepNavSelRange = "{50, 6}";
+			sepNavVisRange = "{0, 172}";
+			sepNavWindowFrame = "{{15, 5}, {1015, 768}}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Lesminni */ = {
+		activeExec = 0;
+	};
+	AC037CCF1066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984C10FFC3680005ECC7A /* SuperNintendoReader.m */;
+		name = "SuperNintendoReader.m: 1292";
+		rLen = 0;
+		rLoc = 64295;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 63937;
+	};
+	AC037CD01066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B20FFC3680005ECC7A /* RomFile.h */;
+		name = "RomFile.h: 6";
+		rLen = 7;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 25;
+	};
+	AC037CD11066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B40FFC3680005ECC7A /* FDSReader.h */;
+		name = "FDSReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 0;
+	};
+	AC037CD21066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B60FFC3680005ECC7A /* GameBoyReader.h */;
+		name = "GameBoyReader.h: 21";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 0;
+	};
+	AC037CD31066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B80FFC3680005ECC7A /* GBAReader.h */;
+		name = "GBAReader.h: 27";
+		rLen = 0;
+		rLoc = 1422;
+		rType = 0;
+		vrLen = 1760;
+		vrLoc = 0;
+	};
+	AC037CD41066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984BA0FFC3680005ECC7A /* N64Reader.h */;
+		name = "N64Reader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 0;
+	};
+	AC037CD51066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984AE0FFC3680005ECC7A /* ParseRomDelegate.h */;
+		name = "ParseRomDelegate.h: 1";
+		rLen = 0;
+		rLoc = 23;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 0;
+	};
+	AC037CD61066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984C20FFC3680005ECC7A /* VirtualBoyReader.h */;
+		name = "VirtualBoyReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	AC037CD71066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984C00FFC3680005ECC7A /* SuperNintendoReader.h */;
+		name = "SuperNintendoReader.h: 7";
+		rLen = 0;
+		rLoc = 153;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 0;
+	};
+	AC037CD81066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984BE0FFC3680005ECC7A /* NintendoReader.h */;
+		name = "NintendoReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 982;
+		vrLoc = 0;
+	};
+	AC037CDA1066C2290038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984BC0FFC3680005ECC7A /* NDSReader.h */;
+		name = "NDSReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	AC037D271066C2C30038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984BC0FFC3680005ECC7A /* NDSReader.h */;
+		name = "NDSReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	AC3DE1071066BBA400736027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1667FE841158C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	AC3DE1081066BBA400736027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984AC0FFC3680005ECC7A /* RomFileReader.m */;
+		name = "RomFileReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 0;
+	};
+	AC3DE12E1066BD4D00736027 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B50FFC3680005ECC7A /* FDSReader.m */;
+		name = "FDSReader.m: 47";
+		rLen = 44;
+		rLoc = 1527;
+		rType = 0;
+		vrLen = 1291;
+		vrLoc = 639;
+	};
+	AC5984A80FFC3496005ECC7A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AC5984A90FFC3496005ECC7A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AC5984AC0FFC3680005ECC7A /* RomFileReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1552, 715}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1344}";
+		};
+	};
+	AC5984AD0FFC3680005ECC7A /* RomFile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 1050}}";
+			sepNavSelRange = "{58, 0}";
+			sepNavVisRange = "{959, 588}";
+		};
+	};
+	AC5984AE0FFC3680005ECC7A /* ParseRomDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 403}}";
+			sepNavSelRange = "{23, 0}";
+			sepNavVisRange = "{0, 346}";
+		};
+	};
+	AC5984AF0FFC3680005ECC7A /* RomFileReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {956, 664}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+			sepNavWindowFrame = "{{15, 5}, {1015, 768}}";
+		};
+	};
+	AC5984B00FFC3680005ECC7A /* NSData_CRC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 3892}}";
+			sepNavSelRange = "{6686, 0}";
+			sepNavVisRange = "{5958, 711}";
+		};
+	};
+	AC5984B10FFC3680005ECC7A /* NSData_CRC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 476}}";
+			sepNavSelRange = "{703, 0}";
+			sepNavVisRange = "{3, 862}";
+		};
+	};
+	AC5984B20FFC3680005ECC7A /* RomFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 1716}}";
+			sepNavSelRange = "{100, 7}";
+			sepNavVisRange = "{25, 637}";
+			sepNavWindowFrame = "{{15, 5}, {1015, 768}}";
+		};
+	};
+	AC5984B40FFC3680005ECC7A /* FDSReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1253}";
+		};
+	};
+	AC5984B50FFC3680005ECC7A /* FDSReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 3874}}";
+			sepNavSelRange = "{1527, 44}";
+			sepNavVisRange = "{639, 1291}";
+		};
+	};
+	AC5984B60FFC3680005ECC7A /* GameBoyReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 403}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 415}";
+		};
+	};
+	AC5984B70FFC3680005ECC7A /* GameBoyReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 8099}}";
+			sepNavSelRange = "{4752, 0}";
+			sepNavVisRange = "{4156, 1089}";
+		};
+	};
+	AC5984B80FFC3680005ECC7A /* GBAReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 468}}";
+			sepNavSelRange = "{1422, 0}";
+			sepNavVisRange = "{0, 1760}";
+		};
+	};
+	AC5984B90FFC3680005ECC7A /* GBAReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 9269}}";
+			sepNavSelRange = "{30741, 0}";
+			sepNavVisRange = "{30132, 914}";
+		};
+	};
+	AC5984BA0FFC3680005ECC7A /* N64Reader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 885}";
+		};
+	};
+	AC5984BB0FFC3680005ECC7A /* N64Reader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 3289}}";
+			sepNavSelRange = "{1637, 0}";
+			sepNavVisRange = "{1074, 776}";
+		};
+	};
+	AC5984BC0FFC3680005ECC7A /* NDSReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 936}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1007}";
+		};
+	};
+	AC5984BD0FFC3680005ECC7A /* NDSReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 8450}}";
+			sepNavSelRange = "{28451, 0}";
+			sepNavVisRange = "{27802, 818}";
+			sepNavWindowFrame = "{{15, 5}, {1015, 768}}";
+		};
+	};
+	AC5984BE0FFC3680005ECC7A /* NintendoReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 982}";
+		};
+	};
+	AC5984BF0FFC3680005ECC7A /* NintendoReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 8255}}";
+			sepNavSelRange = "{25602, 0}";
+			sepNavVisRange = "{24842, 1034}";
+		};
+	};
+	AC5984C00FFC3680005ECC7A /* SuperNintendoReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 403}}";
+			sepNavSelRange = "{153, 0}";
+			sepNavVisRange = "{0, 929}";
+		};
+	};
+	AC5984C10FFC3680005ECC7A /* SuperNintendoReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 18954}}";
+			sepNavSelRange = "{64295, 0}";
+			sepNavVisRange = "{63937, 1196}";
+		};
+	};
+	AC5984C20FFC3680005ECC7A /* VirtualBoyReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 403}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 241}";
+		};
+	};
+	AC5984C30FFC3680005ECC7A /* VirtualBoyReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 3185}}";
+			sepNavSelRange = "{3432, 0}";
+			sepNavVisRange = "{2903, 829}";
+		};
+	};
+	AC5984C40FFC3680005ECC7A /* ParseRomDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 4158}}";
+			sepNavSelRange = "{14728, 0}";
+			sepNavVisRange = "{14240, 640}";
+		};
+	};
+	AC5985270FFC46F6005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984AF0FFC3680005ECC7A /* RomFileReader.h */;
+		name = "RomFileReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	AC59853A0FFC4878005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984AD0FFC3680005ECC7A /* RomFile.m */;
+		name = "RomFile.m: 61";
+		rLen = 0;
+		rLoc = 1142;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 926;
+	};
+	AC5985780FFC4DFE005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B90FFC3680005ECC7A /* GBAReader.m */;
+		name = "GBAReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 0;
+	};
+	AC59857B0FFC4DFE005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984C30FFC3680005ECC7A /* VirtualBoyReader.m */;
+		name = "VirtualBoyReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	AC59857C0FFC4DFE005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984C40FFC3680005ECC7A /* ParseRomDelegate.m */;
+		name = "ParseRomDelegate.m: 6";
+		rLen = 16;
+		rLoc = 115;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 0;
+	};
+	AC5986400FFC5819005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B10FFC3680005ECC7A /* NSData_CRC.h */;
+		name = "NSData_CRC.h: 23";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 3;
+	};
+	AC59865B0FFC5A4D005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5984B00FFC3680005ECC7A /* NSData_CRC.m */;
+		name = "NSData_CRC.m: 140";
+		rLen = 0;
+		rLoc = 6492;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 6246;
+	};
+}

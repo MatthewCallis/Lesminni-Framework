@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		AC037D1D1066C2B70038D8BE /* FFArchive.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AC5984EF0FFC38EC005ECC7A /* FFArchive.framework */; };
+		AC5984C50FFC3680005ECC7A /* RomFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984AC0FFC3680005ECC7A /* RomFileReader.m */; };
+		AC5984C60FFC3680005ECC7A /* RomFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984AD0FFC3680005ECC7A /* RomFile.m */; };
+		AC5984C70FFC3680005ECC7A /* ParseRomDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984AE0FFC3680005ECC7A /* ParseRomDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5984C80FFC3680005ECC7A /* RomFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984AF0FFC3680005ECC7A /* RomFileReader.h */; settings = {ATTRIBUTES = (); }; };
+		AC5984C90FFC3680005ECC7A /* NSData_CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984B00FFC3680005ECC7A /* NSData_CRC.m */; };
+		AC5984CA0FFC3680005ECC7A /* NSData_CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984B10FFC3680005ECC7A /* NSData_CRC.h */; };
+		AC5984CB0FFC3680005ECC7A /* RomFile.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984B20FFC3680005ECC7A /* RomFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5984CC0FFC3680005ECC7A /* FDSReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984B40FFC3680005ECC7A /* FDSReader.h */; };
+		AC5984CD0FFC3680005ECC7A /* FDSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984B50FFC3680005ECC7A /* FDSReader.m */; };
+		AC5984CE0FFC3680005ECC7A /* GameBoyReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984B60FFC3680005ECC7A /* GameBoyReader.h */; };
+		AC5984CF0FFC3680005ECC7A /* GameBoyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984B70FFC3680005ECC7A /* GameBoyReader.m */; };
+		AC5984D00FFC3680005ECC7A /* GBAReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984B80FFC3680005ECC7A /* GBAReader.h */; };
+		AC5984D10FFC3680005ECC7A /* GBAReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984B90FFC3680005ECC7A /* GBAReader.m */; };
+		AC5984D20FFC3680005ECC7A /* N64Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984BA0FFC3680005ECC7A /* N64Reader.h */; };
+		AC5984D30FFC3680005ECC7A /* N64Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984BB0FFC3680005ECC7A /* N64Reader.m */; };
+		AC5984D40FFC3680005ECC7A /* NDSReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984BC0FFC3680005ECC7A /* NDSReader.h */; };
+		AC5984D50FFC3680005ECC7A /* NDSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984BD0FFC3680005ECC7A /* NDSReader.m */; };
+		AC5984D60FFC3680005ECC7A /* NintendoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984BE0FFC3680005ECC7A /* NintendoReader.h */; };
+		AC5984D70FFC3680005ECC7A /* NintendoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984BF0FFC3680005ECC7A /* NintendoReader.m */; };
+		AC5984D80FFC3680005ECC7A /* SuperNintendoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984C00FFC3680005ECC7A /* SuperNintendoReader.h */; };
+		AC5984D90FFC3680005ECC7A /* SuperNintendoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984C10FFC3680005ECC7A /* SuperNintendoReader.m */; };
+		AC5984DA0FFC3680005ECC7A /* VirtualBoyReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5984C20FFC3680005ECC7A /* VirtualBoyReader.h */; };
+		AC5984DB0FFC3680005ECC7A /* VirtualBoyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984C30FFC3680005ECC7A /* VirtualBoyReader.m */; };
+		AC5984DC0FFC3680005ECC7A /* ParseRomDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5984C40FFC3680005ECC7A /* ParseRomDelegate.m */; };
+		AC5984F00FFC38EC005ECC7A /* FFArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5984EF0FFC38EC005ECC7A /* FFArchive.framework */; };
+		AC5984F90FFC38F3005ECC7A /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5984F80FFC38F3005ECC7A /* libcrypto.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC037D2B1066C2C30038D8BE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC037D1D1066C2B70038D8BE /* FFArchive.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* Lesminni_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesminni_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Lesminni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lesminni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5984AC0FFC3680005ECC7A /* RomFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RomFileReader.m; path = "ROM Parser/RomFileReader.m"; sourceTree = "<group>"; };
+		AC5984AD0FFC3680005ECC7A /* RomFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RomFile.m; path = "ROM Parser/RomFile.m"; sourceTree = "<group>"; };
+		AC5984AE0FFC3680005ECC7A /* ParseRomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseRomDelegate.h; path = "ROM Parser/ParseRomDelegate.h"; sourceTree = "<group>"; };
+		AC5984AF0FFC3680005ECC7A /* RomFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RomFileReader.h; path = "ROM Parser/RomFileReader.h"; sourceTree = "<group>"; };
+		AC5984B00FFC3680005ECC7A /* NSData_CRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSData_CRC.m; path = "ROM Parser/NSData_CRC.m"; sourceTree = "<group>"; };
+		AC5984B10FFC3680005ECC7A /* NSData_CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSData_CRC.h; path = "ROM Parser/NSData_CRC.h"; sourceTree = "<group>"; };
+		AC5984B20FFC3680005ECC7A /* RomFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RomFile.h; path = "ROM Parser/RomFile.h"; sourceTree = "<group>"; };
+		AC5984B40FFC3680005ECC7A /* FDSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSReader.h; sourceTree = "<group>"; };
+		AC5984B50FFC3680005ECC7A /* FDSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSReader.m; sourceTree = "<group>"; };
+		AC5984B60FFC3680005ECC7A /* GameBoyReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyReader.h; sourceTree = "<group>"; };
+		AC5984B70FFC3680005ECC7A /* GameBoyReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyReader.m; sourceTree = "<group>"; };
+		AC5984B80FFC3680005ECC7A /* GBAReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAReader.h; sourceTree = "<group>"; };
+		AC5984B90FFC3680005ECC7A /* GBAReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAReader.m; sourceTree = "<group>"; };
+		AC5984BA0FFC3680005ECC7A /* N64Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N64Reader.h; sourceTree = "<group>"; };
+		AC5984BB0FFC3680005ECC7A /* N64Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N64Reader.m; sourceTree = "<group>"; };
+		AC5984BC0FFC3680005ECC7A /* NDSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSReader.h; sourceTree = "<group>"; };
+		AC5984BD0FFC3680005ECC7A /* NDSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSReader.m; sourceTree = "<group>"; };
+		AC5984BE0FFC3680005ECC7A /* NintendoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NintendoReader.h; sourceTree = "<group>"; };
+		AC5984BF0FFC3680005ECC7A /* NintendoReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NintendoReader.m; sourceTree = "<group>"; };
+		AC5984C00FFC3680005ECC7A /* SuperNintendoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperNintendoReader.h; sourceTree = "<group>"; };
+		AC5984C10FFC3680005ECC7A /* SuperNintendoReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperNintendoReader.m; sourceTree = "<group>"; };
+		AC5984C20FFC3680005ECC7A /* VirtualBoyReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualBoyReader.h; sourceTree = "<group>"; };
+		AC5984C30FFC3680005ECC7A /* VirtualBoyReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualBoyReader.m; sourceTree = "<group>"; };
+		AC5984C40FFC3680005ECC7A /* ParseRomDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseRomDelegate.m; path = "ROM Parser/ParseRomDelegate.m"; sourceTree = "<group>"; };
+		AC5984EF0FFC38EC005ECC7A /* FFArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFArchive.framework; sourceTree = "<group>"; };
+		AC5984F80FFC38F3005ECC7A /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				AC5984F00FFC38EC005ECC7A /* FFArchive.framework in Frameworks */,
+				AC5984F90FFC38F3005ECC7A /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Lesminni.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* þekking */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "þekking";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC5984AC0FFC3680005ECC7A /* RomFileReader.m */,
+				AC5984AD0FFC3680005ECC7A /* RomFile.m */,
+				AC5984AE0FFC3680005ECC7A /* ParseRomDelegate.h */,
+				AC5984AF0FFC3680005ECC7A /* RomFileReader.h */,
+				AC5984B20FFC3680005ECC7A /* RomFile.h */,
+				AC5984B30FFC3680005ECC7A /* Formats */,
+				AC5984C40FFC3680005ECC7A /* ParseRomDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5984EF0FFC38EC005ECC7A /* FFArchive.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5984F80FFC38F3005ECC7A /* libcrypto.dylib */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AC5984B00FFC3680005ECC7A /* NSData_CRC.m */,
+				AC5984B10FFC3680005ECC7A /* NSData_CRC.h */,
+				32DBCF5E0370ADEE00C91783 /* Lesminni_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		AC5984B30FFC3680005ECC7A /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				AC5984B40FFC3680005ECC7A /* FDSReader.h */,
+				AC5984B50FFC3680005ECC7A /* FDSReader.m */,
+				AC5984B60FFC3680005ECC7A /* GameBoyReader.h */,
+				AC5984B70FFC3680005ECC7A /* GameBoyReader.m */,
+				AC5984B80FFC3680005ECC7A /* GBAReader.h */,
+				AC5984B90FFC3680005ECC7A /* GBAReader.m */,
+				AC5984BA0FFC3680005ECC7A /* N64Reader.h */,
+				AC5984BB0FFC3680005ECC7A /* N64Reader.m */,
+				AC5984BC0FFC3680005ECC7A /* NDSReader.h */,
+				AC5984BD0FFC3680005ECC7A /* NDSReader.m */,
+				AC5984BE0FFC3680005ECC7A /* NintendoReader.h */,
+				AC5984BF0FFC3680005ECC7A /* NintendoReader.m */,
+				AC5984C00FFC3680005ECC7A /* SuperNintendoReader.h */,
+				AC5984C10FFC3680005ECC7A /* SuperNintendoReader.m */,
+				AC5984C20FFC3680005ECC7A /* VirtualBoyReader.h */,
+				AC5984C30FFC3680005ECC7A /* VirtualBoyReader.m */,
+			);
+			name = Formats;
+			path = "ROM Parser/Formats";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5984C70FFC3680005ECC7A /* ParseRomDelegate.h in Headers */,
+				AC5984C80FFC3680005ECC7A /* RomFileReader.h in Headers */,
+				AC5984CA0FFC3680005ECC7A /* NSData_CRC.h in Headers */,
+				AC5984CB0FFC3680005ECC7A /* RomFile.h in Headers */,
+				AC5984CC0FFC3680005ECC7A /* FDSReader.h in Headers */,
+				AC5984CE0FFC3680005ECC7A /* GameBoyReader.h in Headers */,
+				AC5984D00FFC3680005ECC7A /* GBAReader.h in Headers */,
+				AC5984D20FFC3680005ECC7A /* N64Reader.h in Headers */,
+				AC5984D40FFC3680005ECC7A /* NDSReader.h in Headers */,
+				AC5984D60FFC3680005ECC7A /* NintendoReader.h in Headers */,
+				AC5984D80FFC3680005ECC7A /* SuperNintendoReader.h in Headers */,
+				AC5984DA0FFC3680005ECC7A /* VirtualBoyReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* Lesminni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Lesminni" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				AC037D2B1066C2C30038D8BE /* Copy Frameworks */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lesminni;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = "þekking";
+			productReference = 8DC2EF5B0486A6940098B216 /* Lesminni.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Lesminni" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* þekking */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Lesminni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5984C50FFC3680005ECC7A /* RomFileReader.m in Sources */,
+				AC5984C60FFC3680005ECC7A /* RomFile.m in Sources */,
+				AC5984C90FFC3680005ECC7A /* NSData_CRC.m in Sources */,
+				AC5984CD0FFC3680005ECC7A /* FDSReader.m in Sources */,
+				AC5984CF0FFC3680005ECC7A /* GameBoyReader.m in Sources */,
+				AC5984D10FFC3680005ECC7A /* GBAReader.m in Sources */,
+				AC5984D30FFC3680005ECC7A /* N64Reader.m in Sources */,
+				AC5984D50FFC3680005ECC7A /* NDSReader.m in Sources */,
+				AC5984D70FFC3680005ECC7A /* NintendoReader.m in Sources */,
+				AC5984D90FFC3680005ECC7A /* SuperNintendoReader.m in Sources */,
+				AC5984DB0FFC3680005ECC7A /* VirtualBoyReader.m in Sources */,
+				AC5984DC0FFC3680005ECC7A /* ParseRomDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "þekking_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "þekking";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lesminni_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = Lesminni;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Lesminni;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Lesminni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Lesminni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
